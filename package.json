@@ -1,0 +1,12 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "1.0.0",
+  "main": "src/AOC.ts",
+  "repository": "git@github.com:SachsenspieltCoding/advent-of-code-2022.git",
+  "author": "Sachsenspielt <sachsenspielt3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.11.10",
+    "typescript": "^4.9.3"
+  }
+}
