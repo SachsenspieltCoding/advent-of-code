@@ -1,4 +1,5 @@
 import * as fs from "fs";
+import { sum } from "../../SharedFunctions";
 
 function letterToNumber(letter: string): number {
   switch (letter) {
@@ -23,12 +24,6 @@ function won(opponent: number, self: number): boolean {
   if (opponent == 1 && self == 2) return true;
   if (opponent == 2 && self == 3) return true;
   return opponent == 3 && self == 1;
-}
-
-function sum(input: number[]): number {
-  let count = 0;
-  input.forEach((item) => (count += item));
-  return count;
 }
 
 function part1(input: number[]): number {

@@ -16,8 +16,6 @@ fs.readdirSync(__dirname + "/days").forEach((dir) => {
   });
 });
 
-console.log(days);
-
 console.log("=== AOC2022 ===");
 console.log("Days:", days.length);
 console.log("Days:", days.map((d) => d.day).join(", "));
