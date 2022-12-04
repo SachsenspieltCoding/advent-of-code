@@ -55,3 +55,13 @@ export function letterToNumber(letter: string): number {
   const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
   return alphabet.indexOf(letter) + 1;
 }
+
+/**
+ * Checks if an array is contained in another array
+ * @param arr The array to check
+ * @param subarr The array to check for
+ * @returns True if the array is contained in the other array
+ */
+export function containsArray(arr: number[], subarr: number[]): boolean {
+  return subarr.every((v) => arr.includes(v));
+}
