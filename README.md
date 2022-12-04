@@ -5,7 +5,7 @@ Here are my solutions. Enjoy!
 ## Info
 Language:   `TypeScript`\
 Runtime:    `Node.js`\
-IDE:        `WebStorm`\
+IDE:        `WebStorm`
 
 ## Overview
 
