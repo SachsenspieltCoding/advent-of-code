@@ -1,6 +1,8 @@
 # Advent of Code 2022
 
-Here are my solutions. Enjoy!
+Here are my solutions. Enjoy!\
+They aren't the most efficient or best performant, but they work in their own way.\
+My brain thinks really overcomplicated, so don't judge me.
 
 ## Info
 Language:   `TypeScript`\
@@ -15,7 +17,7 @@ IDE:        `WebStorm`
 | 2   | ✔️     | ✔️     |     | 14  | ❌      | ❌      |
 | 3   | ✔️     | ✔️     |     | 15  | ❌      | ❌      |
 | 4   | ✔️     | ✔️     |     | 16  | ❌      | ❌      |
-| 5   | ❌️     | ❌      |     | 17  | ❌      | ❌      |
+| 5   | ✔️     | ✔️     |     | 17  | ❌      | ❌      |
 | 6   | ❌️     | ❌      |     | 18  | ❌      | ❌      |
 | 7   | ❌️     | ❌      |     | 19  | ❌      | ❌      |
 | 8   | ❌️     | ❌      |     | 20  | ❌      | ❌      |

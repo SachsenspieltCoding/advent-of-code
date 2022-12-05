@@ -1,3 +1,5 @@
+export const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
 /**
  * Sums up all the numbers in an array
  * @param input Array of numbers
@@ -52,7 +54,6 @@ export function halfString(input: string): { first: string; second: string } {
  * @param letter
  */
 export function letterToNumber(letter: string): number {
-  const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
   return alphabet.indexOf(letter) + 1;
 }
 
