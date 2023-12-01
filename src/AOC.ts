@@ -16,10 +16,10 @@ readdirSync(__dirname + '/days').forEach((dir) => {
   })
 })
 
-console.log('=== AOC2022 ===')
+console.log('=== AOC2023 ===')
 console.log('Days:', days.length)
 console.log('Days:', days.map((d) => d.day).join(', '))
-console.log('=== AOC2022 ===')
+console.log('=== AOC2023 ===')
 
 const day = parseInt(prompt('Day: ') || '0')
 
