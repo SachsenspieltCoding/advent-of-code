@@ -1,8 +1,7 @@
 # Advent of Code 2023
 
 Here are my solutions. Enjoy!\
-They aren't the most efficient or best performant, but they work in their own way.\
-My brain thinks really overcomplicated, so don't judge me.
+They aren't the most efficient or best performant, but they work in their own way.
 
 ## Info
 
