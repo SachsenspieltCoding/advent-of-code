@@ -1,30 +1,31 @@
-# Advent of Code 2022
+# Advent of Code 2023
 
 Here are my solutions. Enjoy!\
 They aren't the most efficient or best performant, but they work in their own way.\
 My brain thinks really overcomplicated, so don't judge me.
 
 ## Info
-Language:   `TypeScript`\
-Runtime:    `Node.js`\
-IDE:        `WebStorm`
+
+Language: `TypeScript`\
+Runtime: `Node.js`\
+IDE: `Visual Studio Code`\
 
 ## Overview
 
 | Day | Part 1 | Part 2 |     | Day | Part 1 | Part 2 |
-|-----|--------|--------|-----|-----|--------|--------|
-| 1   | ✔️     | ✔️     |     | 13  | ❌      | ❌      |
-| 2   | ✔️     | ✔️     |     | 14  | ❌      | ❌      |
-| 3   | ✔️     | ✔️     |     | 15  | ❌      | ❌      |
-| 4   | ✔️     | ✔️     |     | 16  | ❌      | ❌      |
-| 5   | ✔️     | ✔️     |     | 17  | ❌      | ❌      |
-| 6   | ✔️     | ✔️     |     | 18  | ❌      | ❌      |
-| 7   | ❌️     | ❌      |     | 19  | ❌      | ❌      |
-| 8   | ❌️     | ❌      |     | 20  | ❌      | ❌      |
-| 9   | ❌️     | ❌      |     | 21  | ❌      | ❌      |
-| 10  | ❌️     | ❌      |     | 22  | ❌      | ❌      |
-| 11  | ❌️     | ❌      |     | 23  | ❌      | ❌      |
-| 12  | ❌️     | ❌      |     | 24  | ❌      | ❌      |
+| --- | ------ | ------ | --- | --- | ------ | ------ |
+| 1   | ❌️    | ❌️    |     | 13  | ❌     | ❌     |
+| 2   | ❌️    | ❌️    |     | 14  | ❌     | ❌     |
+| 3   | ❌️    | ❌️    |     | 15  | ❌     | ❌     |
+| 4   | ❌️    | ❌️    |     | 16  | ❌     | ❌     |
+| 5   | ❌️    | ❌️    |     | 17  | ❌     | ❌     |
+| 6   | ❌️    | ❌️    |     | 18  | ❌     | ❌     |
+| 7   | ❌️    | ❌     |     | 19  | ❌     | ❌     |
+| 8   | ❌️    | ❌     |     | 20  | ❌     | ❌     |
+| 9   | ❌️    | ❌     |     | 21  | ❌     | ❌     |
+| 10  | ❌️    | ❌     |     | 22  | ❌     | ❌     |
+| 11  | ❌️    | ❌     |     | 23  | ❌     | ❌     |
+| 12  | ❌️    | ❌     |     | 24  | ❌     | ❌     |
 
 ## Usage
 
@@ -33,6 +34,7 @@ IDE:        `WebStorm`
 ```bash
 npm install
 ```
+
 ```bash
 yarn install
 ```
@@ -42,6 +44,7 @@ yarn install
 ```bash
 npm start
 ```
+
 ```bash
 yarn start
 ```

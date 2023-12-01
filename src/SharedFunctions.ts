@@ -1,11 +1,18 @@
-export const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+import { readFileSync } from 'fs'
+
+export const alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+export function getInput(dirName: string): string[] {
+  const input = readFileSync(dirName + '/input.txt', 'utf8')
+  return input.split('\n').map((line) => line.trimEnd())
+}
 
 /**
  * Sums up all the numbers in an array
  * @param input Array of numbers
  */
 export function sum(input: number[]): number {
-  return input.reduce((a, b) => a + b, 0);
+  return input.reduce((a, b) => a + b, 0)
 }
 
 /**
@@ -13,7 +20,7 @@ export function sum(input: number[]): number {
  * @param input Array of numbers
  */
 export function clearDuplicates(input: number[]): number[] {
-  return input.filter((v, i, a) => a.indexOf(v) === i);
+  return input.filter((v, i, a) => a.indexOf(v) === i)
 }
 
 /**
@@ -21,19 +28,19 @@ export function clearDuplicates(input: number[]): number[] {
  * @param input The arrays to compare
  */
 export function findSameValue(...input: number[][]): number {
-  let candidates: number[] = [...input[0]];
+  let candidates: number[] = [...input[0]]
 
   while (candidates.length > 1) {
     input.forEach((rucksack) => {
       candidates.forEach((candidate) => {
         if (!rucksack.includes(candidate)) {
-          candidates.splice(candidates.indexOf(candidate), 1);
+          candidates.splice(candidates.indexOf(candidate), 1)
         }
-      });
-    });
+      })
+    })
   }
 
-  return candidates[0];
+  return candidates[0]
 }
 
 /**
@@ -42,11 +49,11 @@ export function findSameValue(...input: number[][]): number {
  * @returns An object with the first and second half of the string
  */
 export function halfString(input: string): { first: string; second: string } {
-  const half = Math.floor(input.length / 2);
+  const half = Math.floor(input.length / 2)
   return {
     first: input.slice(0, half),
     second: input.slice(half),
-  };
+  }
 }
 
 /**
@@ -54,7 +61,7 @@ export function halfString(input: string): { first: string; second: string } {
  * @param letter
  */
 export function letterToNumber(letter: string): number {
-  return alphabet.indexOf(letter) + 1;
+  return alphabet.indexOf(letter) + 1
 }
 
 /**
@@ -64,5 +71,5 @@ export function letterToNumber(letter: string): number {
  * @returns True if the array is contained in the other array
  */
 export function containsArray(arr: number[], subarr: number[]): boolean {
-  return subarr.every((v) => arr.includes(v));
+  return subarr.every((v) => arr.includes(v))
 }
