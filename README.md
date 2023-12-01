@@ -8,7 +8,7 @@ My brain thinks really overcomplicated, so don't judge me.
 
 Language: `TypeScript`\
 Runtime: `Node.js`\
-IDE: `Visual Studio Code`\
+IDE: `Visual Studio Code`
 
 ## Overview
 
