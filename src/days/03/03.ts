@@ -1,5 +1,4 @@
-import { log } from 'console'
-import { clearDuplicates, getInput, sum } from '../../SharedFunctions'
+import { getInput, sum } from '../../SharedFunctions'
 
 function parseInputTo2DArray() {
   const input = getInput(__dirname)
